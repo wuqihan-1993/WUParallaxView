@@ -30,7 +30,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.automaticallyAdjustsScrollViewInsets = YES;
-    self.navigationController.navigationBar.alpha = 0;
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     self.tableView.contentInset = UIEdgeInsetsMake(kHeadH + kBarH, 0, 0, 0);
